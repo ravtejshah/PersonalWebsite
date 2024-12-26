@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import Template from "./template"; // Assuming Template.tsx is in the same directory
+import Template from "./template";
 
 export default function Home() {
   return (
@@ -56,6 +56,7 @@ export default function Home() {
                 className="mx-auto rounded-full mb-6 shadow-lg hover:scale-105 transition-transform"
                 width={250}
                 height={250}
+                unoptimized={true}
               />
               <h2 className="text-5xl font-bold text-gray-800">Hi, I&#39;m Ravtej!</h2>
               <p className="mt-4 text-xl text-gray-700 leading-relaxed">
