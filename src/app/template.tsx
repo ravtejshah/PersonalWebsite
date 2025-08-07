@@ -13,7 +13,7 @@ const getVariants = (x: number, y: number) => ({
   animate: { opacity: 1, x: 0, y: 0 },
 });
 // Define the motion variants for animations
-const x = 100; 
+const x = 0; 
 const y = 100;
 const variants = getVariants(x, y);
 

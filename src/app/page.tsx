@@ -54,8 +54,8 @@ export default function Home() {
                 src="/profile.gif"
                 alt="Ravtej Shah Singh"
                 className="mx-auto rounded-full mb-6 shadow-lg hover:scale-105 transition-transform"
-                width={250}
-                height={250}
+                width={150}
+                height={150}
                 unoptimized={true}
               />
               <h2 className="text-5xl font-bold text-gray-800">Hi, I&#39;m Ravtej!</h2>
@@ -71,7 +71,7 @@ export default function Home() {
             <section id="about" className="bg-gray-100 p-8 rounded-lg shadow-lg">
               <h3 className="text-4xl font-extrabold text-gray-800">About Me</h3>
               <p className="mt-6 text-lg text-gray-700 leading-relaxed">
-                I am a <span className="font-semibold text-blue-600">Computer Science and Economics</span>
+                I am a <span className="font-semibold text-blue-600">Computer Science and Economics </span>
                 student at the University of Toronto with a strong academic
                 background and professional experience in software development. I
                 enjoy solving complex problems and learning new technologies.
