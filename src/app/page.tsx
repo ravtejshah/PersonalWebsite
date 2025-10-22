@@ -119,6 +119,18 @@ export default function Home() {
                     full-stack development skills in a collaborative environment.
                   </p>
                 </li>
+                <li className="transition hover:bg-gray-200 p-4 rounded">
+                  <h4 className="text-2xl font-semibold text-blue-600">Microservices Architecture in Java</h4>
+                  <p className="text-lg text-gray-700">
+                    Personal Project | Java, REST APIs, Docker, Redis, Docker Swarm, JSON, LAN Deployment
+                    <br /><br />
+                    Designed and implemented a distributed microservices system in Java featuring User, Product, and Order services communicating via RESTful APIs through a custom Inter-Service Communication Service (ISCS) for routing and load balancing.
+                      
+                    Integrated Redis for caching and optimized throughput to 20,000+ instructions per second; containerized and deployed services using Docker Swarm for scalability and fault isolation.
+
+                    Implemented CRUD APIs, transactional order management, and modular configuration with a focus on API design, error handling, and distributed reliability.
+                  </p>
+                </li>
               </ul>
             </section>
           </Template>
